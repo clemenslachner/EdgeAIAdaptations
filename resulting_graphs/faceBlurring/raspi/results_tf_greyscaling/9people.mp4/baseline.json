@@ -1,0 +1,5854 @@
+{
+    "runtime": 397.24435353279114,
+    "fps": 1.1202173071624713,
+    "complete_acc": 99.7752808988764,
+    "arguments": [
+        {
+            "name": "face",
+            "value": "models/face_detector"
+        },
+        {
+            "name": "model",
+            "value": "models/mask_detector.model"
+        },
+        {
+            "name": "confidence",
+            "value": 0.2
+        },
+        {
+            "name": "camSource",
+            "value": "/dev/video0"
+        },
+        {
+            "name": "inputVideo",
+            "value": "videos/9people.mp4"
+        },
+        {
+            "name": "width",
+            "value": null
+        },
+        {
+            "name": "verbose",
+            "value": false
+        },
+        {
+            "name": "gray",
+            "value": null
+        },
+        {
+            "name": "boxes",
+            "value": false
+        },
+        {
+            "name": "display",
+            "value": false
+        },
+        {
+            "name": "checkFrame",
+            "value": 1
+        },
+        {
+            "name": "output",
+            "value": "tmp.json"
+        },
+        {
+            "name": "print",
+            "value": null
+        },
+        {
+            "name": "gpu",
+            "value": ""
+        },
+        {
+            "name": "useTf",
+            "value": true
+        },
+        {
+            "name": "useTflite",
+            "value": false
+        },
+        {
+            "name": "onlyFaces",
+            "value": true
+        },
+        {
+            "name": "anonymization",
+            "value": 0
+        }
+    ],
+    "frames": [
+        {
+            "frameId": 1,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 6.83941125869751,
+                    "completeStep": 6.839462757110596
+                }
+            }
+        },
+        {
+            "frameId": 2,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8931572437286377,
+                    "completeStep": 0.8932006359100342
+                }
+            }
+        },
+        {
+            "frameId": 3,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8942368030548096,
+                    "completeStep": 0.8942780494689941
+                }
+            }
+        },
+        {
+            "frameId": 4,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8971164226531982,
+                    "completeStep": 0.8971590995788574
+                }
+            }
+        },
+        {
+            "frameId": 5,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9049432277679443,
+                    "completeStep": 0.904984712600708
+                }
+            }
+        },
+        {
+            "frameId": 6,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8965957164764404,
+                    "completeStep": 0.8966343402862549
+                }
+            }
+        },
+        {
+            "frameId": 7,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9146556854248047,
+                    "completeStep": 0.9146995544433594
+                }
+            }
+        },
+        {
+            "frameId": 8,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9150311946868896,
+                    "completeStep": 0.9150722026824951
+                }
+            }
+        },
+        {
+            "frameId": 9,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8982048034667969,
+                    "completeStep": 0.898247241973877
+                }
+            }
+        },
+        {
+            "frameId": 10,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9146628379821777,
+                    "completeStep": 0.9147047996520996
+                }
+            }
+        },
+        {
+            "frameId": 11,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9145255088806152,
+                    "completeStep": 0.9145658016204834
+                }
+            }
+        },
+        {
+            "frameId": 12,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8876991271972656,
+                    "completeStep": 0.8877420425415039
+                }
+            }
+        },
+        {
+            "frameId": 13,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.913806676864624,
+                    "completeStep": 0.9138472080230713
+                }
+            }
+        },
+        {
+            "frameId": 14,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9146270751953125,
+                    "completeStep": 0.9146707057952881
+                }
+            }
+        },
+        {
+            "frameId": 15,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9049017429351807,
+                    "completeStep": 0.9049408435821533
+                }
+            }
+        },
+        {
+            "frameId": 16,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9180200099945068,
+                    "completeStep": 0.9180629253387451
+                }
+            }
+        },
+        {
+            "frameId": 17,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9303538799285889,
+                    "completeStep": 0.9303953647613525
+                }
+            }
+        },
+        {
+            "frameId": 18,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8908231258392334,
+                    "completeStep": 0.8908646106719971
+                }
+            }
+        },
+        {
+            "frameId": 19,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9134819507598877,
+                    "completeStep": 0.9135234355926514
+                }
+            }
+        },
+        {
+            "frameId": 20,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8978209495544434,
+                    "completeStep": 0.8978617191314697
+                }
+            }
+        },
+        {
+            "frameId": 21,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8919627666473389,
+                    "completeStep": 0.8920035362243652
+                }
+            }
+        },
+        {
+            "frameId": 22,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.905034065246582,
+                    "completeStep": 0.9050736427307129
+                }
+            }
+        },
+        {
+            "frameId": 23,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9166505336761475,
+                    "completeStep": 0.9166922569274902
+                }
+            }
+        },
+        {
+            "frameId": 24,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9163177013397217,
+                    "completeStep": 0.9163594245910645
+                }
+            }
+        },
+        {
+            "frameId": 25,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.897951602935791,
+                    "completeStep": 0.8979923725128174
+                }
+            }
+        },
+        {
+            "frameId": 26,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9198589324951172,
+                    "completeStep": 0.91990065574646
+                }
+            }
+        },
+        {
+            "frameId": 27,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8948748111724854,
+                    "completeStep": 0.8949155807495117
+                }
+            }
+        },
+        {
+            "frameId": 28,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9101898670196533,
+                    "completeStep": 0.9102315902709961
+                }
+            }
+        },
+        {
+            "frameId": 29,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9388694763183594,
+                    "completeStep": 0.9389128684997559
+                }
+            }
+        },
+        {
+            "frameId": 30,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9002461433410645,
+                    "completeStep": 0.9002861976623535
+                }
+            }
+        },
+        {
+            "frameId": 31,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.913470983505249,
+                    "completeStep": 0.9135129451751709
+                }
+            }
+        },
+        {
+            "frameId": 32,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8970324993133545,
+                    "completeStep": 0.8970749378204346
+                }
+            }
+        },
+        {
+            "frameId": 33,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9016306400299072,
+                    "completeStep": 0.90167236328125
+                }
+            }
+        },
+        {
+            "frameId": 34,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8910317420959473,
+                    "completeStep": 0.8910715579986572
+                }
+            }
+        },
+        {
+            "frameId": 35,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9281406402587891,
+                    "completeStep": 0.9281818866729736
+                }
+            }
+        },
+        {
+            "frameId": 36,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8950364589691162,
+                    "completeStep": 0.8950755596160889
+                }
+            }
+        },
+        {
+            "frameId": 37,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9045259952545166,
+                    "completeStep": 0.9045658111572266
+                }
+            }
+        },
+        {
+            "frameId": 38,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8835804462432861,
+                    "completeStep": 0.8836216926574707
+                }
+            }
+        },
+        {
+            "frameId": 39,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8987512588500977,
+                    "completeStep": 0.8987910747528076
+                }
+            }
+        },
+        {
+            "frameId": 40,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9120397567749023,
+                    "completeStep": 0.9120824337005615
+                }
+            }
+        },
+        {
+            "frameId": 41,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9128360748291016,
+                    "completeStep": 0.9128766059875488
+                }
+            }
+        },
+        {
+            "frameId": 42,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8924810886383057,
+                    "completeStep": 0.8925235271453857
+                }
+            }
+        },
+        {
+            "frameId": 43,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9043059349060059,
+                    "completeStep": 0.9043493270874023
+                }
+            }
+        },
+        {
+            "frameId": 44,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9095923900604248,
+                    "completeStep": 0.9096355438232422
+                }
+            }
+        },
+        {
+            "frameId": 45,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9199082851409912,
+                    "completeStep": 0.9199488162994385
+                }
+            }
+        },
+        {
+            "frameId": 46,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9105889797210693,
+                    "completeStep": 0.9106309413909912
+                }
+            }
+        },
+        {
+            "frameId": 47,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9213712215423584,
+                    "completeStep": 0.9214105606079102
+                }
+            }
+        },
+        {
+            "frameId": 48,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9325499534606934,
+                    "completeStep": 0.9325895309448242
+                }
+            }
+        },
+        {
+            "frameId": 49,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8964886665344238,
+                    "completeStep": 0.8965303897857666
+                }
+            }
+        },
+        {
+            "frameId": 50,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8885929584503174,
+                    "completeStep": 0.8886334896087646
+                }
+            }
+        },
+        {
+            "frameId": 51,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9066019058227539,
+                    "completeStep": 0.9066445827484131
+                }
+            }
+        },
+        {
+            "frameId": 52,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8978426456451416,
+                    "completeStep": 0.8978841304779053
+                }
+            }
+        },
+        {
+            "frameId": 53,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8968801498413086,
+                    "completeStep": 0.8969211578369141
+                }
+            }
+        },
+        {
+            "frameId": 54,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8801887035369873,
+                    "completeStep": 0.8802323341369629
+                }
+            }
+        },
+        {
+            "frameId": 55,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.89103102684021,
+                    "completeStep": 0.8910713195800781
+                }
+            }
+        },
+        {
+            "frameId": 56,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9221651554107666,
+                    "completeStep": 0.9222078323364258
+                }
+            }
+        },
+        {
+            "frameId": 57,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9123866558074951,
+                    "completeStep": 0.9124288558959961
+                }
+            }
+        },
+        {
+            "frameId": 58,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9026145935058594,
+                    "completeStep": 0.9026567935943604
+                }
+            }
+        },
+        {
+            "frameId": 59,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9059007167816162,
+                    "completeStep": 0.9059433937072754
+                }
+            }
+        },
+        {
+            "frameId": 60,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8912920951843262,
+                    "completeStep": 0.8913350105285645
+                }
+            }
+        },
+        {
+            "frameId": 61,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9184935092926025,
+                    "completeStep": 0.918536901473999
+                }
+            }
+        },
+        {
+            "frameId": 62,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8882551193237305,
+                    "completeStep": 0.8882966041564941
+                }
+            }
+        },
+        {
+            "frameId": 63,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9056200981140137,
+                    "completeStep": 0.9056603908538818
+                }
+            }
+        },
+        {
+            "frameId": 64,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9141952991485596,
+                    "completeStep": 0.9142394065856934
+                }
+            }
+        },
+        {
+            "frameId": 65,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9228794574737549,
+                    "completeStep": 0.9229214191436768
+                }
+            }
+        },
+        {
+            "frameId": 66,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.920180082321167,
+                    "completeStep": 0.9202225208282471
+                }
+            }
+        },
+        {
+            "frameId": 67,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9141204357147217,
+                    "completeStep": 0.9141623973846436
+                }
+            }
+        },
+        {
+            "frameId": 68,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9065425395965576,
+                    "completeStep": 0.9065842628479004
+                }
+            }
+        },
+        {
+            "frameId": 69,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8974688053131104,
+                    "completeStep": 0.8975112438201904
+                }
+            }
+        },
+        {
+            "frameId": 70,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9063992500305176,
+                    "completeStep": 0.9064404964447021
+                }
+            }
+        },
+        {
+            "frameId": 71,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9184143543243408,
+                    "completeStep": 0.9184558391571045
+                }
+            }
+        },
+        {
+            "frameId": 72,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8901758193969727,
+                    "completeStep": 0.8902173042297363
+                }
+            }
+        },
+        {
+            "frameId": 73,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8953235149383545,
+                    "completeStep": 0.8953638076782227
+                }
+            }
+        },
+        {
+            "frameId": 74,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9023401737213135,
+                    "completeStep": 0.9023826122283936
+                }
+            }
+        },
+        {
+            "frameId": 75,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9178345203399658,
+                    "completeStep": 0.917877197265625
+                }
+            }
+        },
+        {
+            "frameId": 76,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9068689346313477,
+                    "completeStep": 0.906909704208374
+                }
+            }
+        },
+        {
+            "frameId": 77,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9178924560546875,
+                    "completeStep": 0.9179332256317139
+                }
+            }
+        },
+        {
+            "frameId": 78,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8940863609313965,
+                    "completeStep": 0.8941285610198975
+                }
+            }
+        },
+        {
+            "frameId": 79,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9163787364959717,
+                    "completeStep": 0.9164214134216309
+                }
+            }
+        },
+        {
+            "frameId": 80,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.907813549041748,
+                    "completeStep": 0.9078538417816162
+                }
+            }
+        },
+        {
+            "frameId": 81,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9121992588043213,
+                    "completeStep": 0.9122405052185059
+                }
+            }
+        },
+        {
+            "frameId": 82,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9004006385803223,
+                    "completeStep": 0.9004409313201904
+                }
+            }
+        },
+        {
+            "frameId": 83,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9195773601531982,
+                    "completeStep": 0.9196171760559082
+                }
+            }
+        },
+        {
+            "frameId": 84,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9042131900787354,
+                    "completeStep": 0.9042534828186035
+                }
+            }
+        },
+        {
+            "frameId": 85,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9100561141967773,
+                    "completeStep": 0.9100954532623291
+                }
+            }
+        },
+        {
+            "frameId": 86,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9179244041442871,
+                    "completeStep": 0.9179658889770508
+                }
+            }
+        },
+        {
+            "frameId": 87,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9041736125946045,
+                    "completeStep": 0.904212474822998
+                }
+            }
+        },
+        {
+            "frameId": 88,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9167139530181885,
+                    "completeStep": 0.916757345199585
+                }
+            }
+        },
+        {
+            "frameId": 89,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9130144119262695,
+                    "completeStep": 0.913055419921875
+                }
+            }
+        },
+        {
+            "frameId": 90,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9275221824645996,
+                    "completeStep": 0.9275617599487305
+                }
+            }
+        },
+        {
+            "frameId": 91,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9145240783691406,
+                    "completeStep": 0.9145641326904297
+                }
+            }
+        },
+        {
+            "frameId": 92,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9025564193725586,
+                    "completeStep": 0.9025990962982178
+                }
+            }
+        },
+        {
+            "frameId": 93,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9064891338348389,
+                    "completeStep": 0.906529426574707
+                }
+            }
+        },
+        {
+            "frameId": 94,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9204676151275635,
+                    "completeStep": 0.9205098152160645
+                }
+            }
+        },
+        {
+            "frameId": 95,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9159276485443115,
+                    "completeStep": 0.9159698486328125
+                }
+            }
+        },
+        {
+            "frameId": 96,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9062588214874268,
+                    "completeStep": 0.906299352645874
+                }
+            }
+        },
+        {
+            "frameId": 97,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9019777774810791,
+                    "completeStep": 0.9020192623138428
+                }
+            }
+        },
+        {
+            "frameId": 98,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.920311450958252,
+                    "completeStep": 0.9203531742095947
+                }
+            }
+        },
+        {
+            "frameId": 99,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9107973575592041,
+                    "completeStep": 0.9108359813690186
+                }
+            }
+        },
+        {
+            "frameId": 100,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9218654632568359,
+                    "completeStep": 0.9219081401824951
+                }
+            }
+        },
+        {
+            "frameId": 101,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9321293830871582,
+                    "completeStep": 0.9321694374084473
+                }
+            }
+        },
+        {
+            "frameId": 102,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.905648946762085,
+                    "completeStep": 0.9056897163391113
+                }
+            }
+        },
+        {
+            "frameId": 103,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9090361595153809,
+                    "completeStep": 0.9090752601623535
+                }
+            }
+        },
+        {
+            "frameId": 104,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9179866313934326,
+                    "completeStep": 0.9180276393890381
+                }
+            }
+        },
+        {
+            "frameId": 105,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9139506816864014,
+                    "completeStep": 0.9139904975891113
+                }
+            }
+        },
+        {
+            "frameId": 106,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.91568922996521,
+                    "completeStep": 0.9157311916351318
+                }
+            }
+        },
+        {
+            "frameId": 107,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9185497760772705,
+                    "completeStep": 0.9185895919799805
+                }
+            }
+        },
+        {
+            "frameId": 108,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9196538925170898,
+                    "completeStep": 0.9196949005126953
+                }
+            }
+        },
+        {
+            "frameId": 109,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9122040271759033,
+                    "completeStep": 0.9122452735900879
+                }
+            }
+        },
+        {
+            "frameId": 110,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9150140285491943,
+                    "completeStep": 0.915055513381958
+                }
+            }
+        },
+        {
+            "frameId": 111,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9114024639129639,
+                    "completeStep": 0.9114432334899902
+                }
+            }
+        },
+        {
+            "frameId": 112,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9140675067901611,
+                    "completeStep": 0.9141085147857666
+                }
+            }
+        },
+        {
+            "frameId": 113,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9200811386108398,
+                    "completeStep": 0.9201211929321289
+                }
+            }
+        },
+        {
+            "frameId": 114,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9198682308197021,
+                    "completeStep": 0.9199082851409912
+                }
+            }
+        },
+        {
+            "frameId": 115,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9094586372375488,
+                    "completeStep": 0.9094984531402588
+                }
+            }
+        },
+        {
+            "frameId": 116,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9164307117462158,
+                    "completeStep": 0.9164719581604004
+                }
+            }
+        },
+        {
+            "frameId": 117,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9133448600769043,
+                    "completeStep": 0.9133856296539307
+                }
+            }
+        },
+        {
+            "frameId": 118,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9107496738433838,
+                    "completeStep": 0.9107885360717773
+                }
+            }
+        },
+        {
+            "frameId": 119,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9221987724304199,
+                    "completeStep": 0.9222407341003418
+                }
+            }
+        },
+        {
+            "frameId": 120,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9214186668395996,
+                    "completeStep": 0.9214601516723633
+                }
+            }
+        },
+        {
+            "frameId": 121,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9095571041107178,
+                    "completeStep": 0.9095995426177979
+                }
+            }
+        },
+        {
+            "frameId": 122,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9023513793945312,
+                    "completeStep": 0.9023923873901367
+                }
+            }
+        },
+        {
+            "frameId": 123,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9004373550415039,
+                    "completeStep": 0.9004764556884766
+                }
+            }
+        },
+        {
+            "frameId": 124,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9170777797698975,
+                    "completeStep": 0.9171185493469238
+                }
+            }
+        },
+        {
+            "frameId": 125,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9103841781616211,
+                    "completeStep": 0.910423755645752
+                }
+            }
+        },
+        {
+            "frameId": 126,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9134745597839355,
+                    "completeStep": 0.913515567779541
+                }
+            }
+        },
+        {
+            "frameId": 127,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9144432544708252,
+                    "completeStep": 0.9144837856292725
+                }
+            }
+        },
+        {
+            "frameId": 128,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9108836650848389,
+                    "completeStep": 0.9109256267547607
+                }
+            }
+        },
+        {
+            "frameId": 129,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9145464897155762,
+                    "completeStep": 0.9145874977111816
+                }
+            }
+        },
+        {
+            "frameId": 130,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9125571250915527,
+                    "completeStep": 0.9125993251800537
+                }
+            }
+        },
+        {
+            "frameId": 131,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9105584621429443,
+                    "completeStep": 0.910599946975708
+                }
+            }
+        },
+        {
+            "frameId": 132,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9085671901702881,
+                    "completeStep": 0.9086074829101562
+                }
+            }
+        },
+        {
+            "frameId": 133,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9368350505828857,
+                    "completeStep": 0.9368758201599121
+                }
+            }
+        },
+        {
+            "frameId": 134,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9232146739959717,
+                    "completeStep": 0.9232549667358398
+                }
+            }
+        },
+        {
+            "frameId": 135,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9024572372436523,
+                    "completeStep": 0.9024977684020996
+                }
+            }
+        },
+        {
+            "frameId": 136,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9073472023010254,
+                    "completeStep": 0.9073872566223145
+                }
+            }
+        },
+        {
+            "frameId": 137,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9105169773101807,
+                    "completeStep": 0.9105596542358398
+                }
+            }
+        },
+        {
+            "frameId": 138,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9148445129394531,
+                    "completeStep": 0.9148843288421631
+                }
+            }
+        },
+        {
+            "frameId": 139,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9216551780700684,
+                    "completeStep": 0.9216969013214111
+                }
+            }
+        },
+        {
+            "frameId": 140,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9128484725952148,
+                    "completeStep": 0.912891149520874
+                }
+            }
+        },
+        {
+            "frameId": 141,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9164133071899414,
+                    "completeStep": 0.9164557456970215
+                }
+            }
+        },
+        {
+            "frameId": 142,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9063973426818848,
+                    "completeStep": 0.9064784049987793
+                }
+            }
+        },
+        {
+            "frameId": 143,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9143557548522949,
+                    "completeStep": 0.9143974781036377
+                }
+            }
+        },
+        {
+            "frameId": 144,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.919503927230835,
+                    "completeStep": 0.9195480346679688
+                }
+            }
+        },
+        {
+            "frameId": 145,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9298391342163086,
+                    "completeStep": 0.9298803806304932
+                }
+            }
+        },
+        {
+            "frameId": 146,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9101724624633789,
+                    "completeStep": 0.9102129936218262
+                }
+            }
+        },
+        {
+            "frameId": 147,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9250071048736572,
+                    "completeStep": 0.9250471591949463
+                }
+            }
+        },
+        {
+            "frameId": 148,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.91109299659729,
+                    "completeStep": 0.9111335277557373
+                }
+            }
+        },
+        {
+            "frameId": 149,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9034383296966553,
+                    "completeStep": 0.9034786224365234
+                }
+            }
+        },
+        {
+            "frameId": 150,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9164543151855469,
+                    "completeStep": 0.9164936542510986
+                }
+            }
+        },
+        {
+            "frameId": 151,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9153187274932861,
+                    "completeStep": 0.9153602123260498
+                }
+            }
+        },
+        {
+            "frameId": 152,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9116933345794678,
+                    "completeStep": 0.9117331504821777
+                }
+            }
+        },
+        {
+            "frameId": 153,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9241898059844971,
+                    "completeStep": 0.9242303371429443
+                }
+            }
+        },
+        {
+            "frameId": 154,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9153060913085938,
+                    "completeStep": 0.9153485298156738
+                }
+            }
+        },
+        {
+            "frameId": 155,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9191365242004395,
+                    "completeStep": 0.9191784858703613
+                }
+            }
+        },
+        {
+            "frameId": 156,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9144942760467529,
+                    "completeStep": 0.9145371913909912
+                }
+            }
+        },
+        {
+            "frameId": 157,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9177536964416504,
+                    "completeStep": 0.9177970886230469
+                }
+            }
+        },
+        {
+            "frameId": 158,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9163916110992432,
+                    "completeStep": 0.9164321422576904
+                }
+            }
+        },
+        {
+            "frameId": 159,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9097275733947754,
+                    "completeStep": 0.90976881980896
+                }
+            }
+        },
+        {
+            "frameId": 160,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9356935024261475,
+                    "completeStep": 0.9357330799102783
+                }
+            }
+        },
+        {
+            "frameId": 161,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9114959239959717,
+                    "completeStep": 0.9115374088287354
+                }
+            }
+        },
+        {
+            "frameId": 162,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.90812087059021,
+                    "completeStep": 0.9081614017486572
+                }
+            }
+        },
+        {
+            "frameId": 163,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.911130428314209,
+                    "completeStep": 0.9111716747283936
+                }
+            }
+        },
+        {
+            "frameId": 164,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9132626056671143,
+                    "completeStep": 0.9133057594299316
+                }
+            }
+        },
+        {
+            "frameId": 165,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8925378322601318,
+                    "completeStep": 0.8925774097442627
+                }
+            }
+        },
+        {
+            "frameId": 166,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9150216579437256,
+                    "completeStep": 0.9150607585906982
+                }
+            }
+        },
+        {
+            "frameId": 167,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8903491497039795,
+                    "completeStep": 0.8903870582580566
+                }
+            }
+        },
+        {
+            "frameId": 168,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8875749111175537,
+                    "completeStep": 0.8876149654388428
+                }
+            }
+        },
+        {
+            "frameId": 169,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8886551856994629,
+                    "completeStep": 0.8886957168579102
+                }
+            }
+        },
+        {
+            "frameId": 170,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8925764560699463,
+                    "completeStep": 0.89261794090271
+                }
+            }
+        },
+        {
+            "frameId": 171,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8891541957855225,
+                    "completeStep": 0.8891932964324951
+                }
+            }
+        },
+        {
+            "frameId": 172,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8988630771636963,
+                    "completeStep": 0.898902416229248
+                }
+            }
+        },
+        {
+            "frameId": 173,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.88275146484375,
+                    "completeStep": 0.8827919960021973
+                }
+            }
+        },
+        {
+            "frameId": 174,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8873355388641357,
+                    "completeStep": 0.8873763084411621
+                }
+            }
+        },
+        {
+            "frameId": 175,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8906748294830322,
+                    "completeStep": 0.8907158374786377
+                }
+            }
+        },
+        {
+            "frameId": 176,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8785238265991211,
+                    "completeStep": 0.8785629272460938
+                }
+            }
+        },
+        {
+            "frameId": 177,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8784739971160889,
+                    "completeStep": 0.8785145282745361
+                }
+            }
+        },
+        {
+            "frameId": 178,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8825638294219971,
+                    "completeStep": 0.8826045989990234
+                }
+            }
+        },
+        {
+            "frameId": 179,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8829329013824463,
+                    "completeStep": 0.882972240447998
+                }
+            }
+        },
+        {
+            "frameId": 180,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8859920501708984,
+                    "completeStep": 0.8860323429107666
+                }
+            }
+        },
+        {
+            "frameId": 181,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8836524486541748,
+                    "completeStep": 0.8836920261383057
+                }
+            }
+        },
+        {
+            "frameId": 182,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8856213092803955,
+                    "completeStep": 0.8856606483459473
+                }
+            }
+        },
+        {
+            "frameId": 183,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8803508281707764,
+                    "completeStep": 0.8803908824920654
+                }
+            }
+        },
+        {
+            "frameId": 184,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8743441104888916,
+                    "completeStep": 0.8743836879730225
+                }
+            }
+        },
+        {
+            "frameId": 185,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8851273059844971,
+                    "completeStep": 0.8851678371429443
+                }
+            }
+        },
+        {
+            "frameId": 186,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8975141048431396,
+                    "completeStep": 0.8975543975830078
+                }
+            }
+        },
+        {
+            "frameId": 187,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8749778270721436,
+                    "completeStep": 0.8750159740447998
+                }
+            }
+        },
+        {
+            "frameId": 188,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8786575794219971,
+                    "completeStep": 0.878697395324707
+                }
+            }
+        },
+        {
+            "frameId": 189,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8710238933563232,
+                    "completeStep": 0.8710639476776123
+                }
+            }
+        },
+        {
+            "frameId": 190,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8958926200866699,
+                    "completeStep": 0.8959319591522217
+                }
+            }
+        },
+        {
+            "frameId": 191,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8888306617736816,
+                    "completeStep": 0.8888700008392334
+                }
+            }
+        },
+        {
+            "frameId": 192,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8870904445648193,
+                    "completeStep": 0.8871302604675293
+                }
+            }
+        },
+        {
+            "frameId": 193,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8992247581481934,
+                    "completeStep": 0.8992636203765869
+                }
+            }
+        },
+        {
+            "frameId": 194,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8758349418640137,
+                    "completeStep": 0.8758745193481445
+                }
+            }
+        },
+        {
+            "frameId": 195,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.894444465637207,
+                    "completeStep": 0.8944814205169678
+                }
+            }
+        },
+        {
+            "frameId": 196,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8916599750518799,
+                    "completeStep": 0.8917007446289062
+                }
+            }
+        },
+        {
+            "frameId": 197,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8814833164215088,
+                    "completeStep": 0.8815231323242188
+                }
+            }
+        },
+        {
+            "frameId": 198,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.878493070602417,
+                    "completeStep": 0.878533124923706
+                }
+            }
+        },
+        {
+            "frameId": 199,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8841202259063721,
+                    "completeStep": 0.8841609954833984
+                }
+            }
+        },
+        {
+            "frameId": 200,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8867208957672119,
+                    "completeStep": 0.886763334274292
+                }
+            }
+        },
+        {
+            "frameId": 201,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8695764541625977,
+                    "completeStep": 0.8696153163909912
+                }
+            }
+        },
+        {
+            "frameId": 202,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8975353240966797,
+                    "completeStep": 0.8975749015808105
+                }
+            }
+        },
+        {
+            "frameId": 203,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8989913463592529,
+                    "completeStep": 0.8990328311920166
+                }
+            }
+        },
+        {
+            "frameId": 204,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8957340717315674,
+                    "completeStep": 0.8957738876342773
+                }
+            }
+        },
+        {
+            "frameId": 205,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8764805793762207,
+                    "completeStep": 0.8765206336975098
+                }
+            }
+        },
+        {
+            "frameId": 206,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8900153636932373,
+                    "completeStep": 0.8900549411773682
+                }
+            }
+        },
+        {
+            "frameId": 207,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8917834758758545,
+                    "completeStep": 0.8918232917785645
+                }
+            }
+        },
+        {
+            "frameId": 208,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8922429084777832,
+                    "completeStep": 0.8922827243804932
+                }
+            }
+        },
+        {
+            "frameId": 209,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8876326084136963,
+                    "completeStep": 0.8876712322235107
+                }
+            }
+        },
+        {
+            "frameId": 210,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.89805006980896,
+                    "completeStep": 0.8980898857116699
+                }
+            }
+        },
+        {
+            "frameId": 211,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8875205516815186,
+                    "completeStep": 0.8875610828399658
+                }
+            }
+        },
+        {
+            "frameId": 212,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.881319522857666,
+                    "completeStep": 0.8813598155975342
+                }
+            }
+        },
+        {
+            "frameId": 213,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.880763053894043,
+                    "completeStep": 0.8808023929595947
+                }
+            }
+        },
+        {
+            "frameId": 214,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9105730056762695,
+                    "completeStep": 0.9106118679046631
+                }
+            }
+        },
+        {
+            "frameId": 215,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8705205917358398,
+                    "completeStep": 0.8705606460571289
+                }
+            }
+        },
+        {
+            "frameId": 216,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8887178897857666,
+                    "completeStep": 0.888758659362793
+                }
+            }
+        },
+        {
+            "frameId": 217,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8909900188446045,
+                    "completeStep": 0.8910300731658936
+                }
+            }
+        },
+        {
+            "frameId": 218,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.879462480545044,
+                    "completeStep": 0.8795011043548584
+                }
+            }
+        },
+        {
+            "frameId": 219,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8876509666442871,
+                    "completeStep": 0.8876922130584717
+                }
+            }
+        },
+        {
+            "frameId": 220,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.908883810043335,
+                    "completeStep": 0.9089221954345703
+                }
+            }
+        },
+        {
+            "frameId": 221,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.885063648223877,
+                    "completeStep": 0.8851053714752197
+                }
+            }
+        },
+        {
+            "frameId": 222,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8924362659454346,
+                    "completeStep": 0.8924756050109863
+                }
+            }
+        },
+        {
+            "frameId": 223,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8794317245483398,
+                    "completeStep": 0.8794705867767334
+                }
+            }
+        },
+        {
+            "frameId": 224,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8743300437927246,
+                    "completeStep": 0.8743691444396973
+                }
+            }
+        },
+        {
+            "frameId": 225,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8869533538818359,
+                    "completeStep": 0.8869938850402832
+                }
+            }
+        },
+        {
+            "frameId": 226,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9014091491699219,
+                    "completeStep": 0.90144944190979
+                }
+            }
+        },
+        {
+            "frameId": 227,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8848855495452881,
+                    "completeStep": 0.8849248886108398
+                }
+            }
+        },
+        {
+            "frameId": 228,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8755190372467041,
+                    "completeStep": 0.8755576610565186
+                }
+            }
+        },
+        {
+            "frameId": 229,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9059252738952637,
+                    "completeStep": 0.9059638977050781
+                }
+            }
+        },
+        {
+            "frameId": 230,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8824427127838135,
+                    "completeStep": 0.8824822902679443
+                }
+            }
+        },
+        {
+            "frameId": 231,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8846437931060791,
+                    "completeStep": 0.8846848011016846
+                }
+            }
+        },
+        {
+            "frameId": 232,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8873274326324463,
+                    "completeStep": 0.8873693943023682
+                }
+            }
+        },
+        {
+            "frameId": 233,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8880562782287598,
+                    "completeStep": 0.8880956172943115
+                }
+            }
+        },
+        {
+            "frameId": 234,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8841180801391602,
+                    "completeStep": 0.8841564655303955
+                }
+            }
+        },
+        {
+            "frameId": 235,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8955841064453125,
+                    "completeStep": 0.8956241607666016
+                }
+            }
+        },
+        {
+            "frameId": 236,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8910434246063232,
+                    "completeStep": 0.8910822868347168
+                }
+            }
+        },
+        {
+            "frameId": 237,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9035868644714355,
+                    "completeStep": 0.9036264419555664
+                }
+            }
+        },
+        {
+            "frameId": 238,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8820633888244629,
+                    "completeStep": 0.8821032047271729
+                }
+            }
+        },
+        {
+            "frameId": 239,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8844015598297119,
+                    "completeStep": 0.8844411373138428
+                }
+            }
+        },
+        {
+            "frameId": 240,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8795371055603027,
+                    "completeStep": 0.8795773983001709
+                }
+            }
+        },
+        {
+            "frameId": 241,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9012048244476318,
+                    "completeStep": 0.9012444019317627
+                }
+            }
+        },
+        {
+            "frameId": 242,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8825283050537109,
+                    "completeStep": 0.882568359375
+                }
+            }
+        },
+        {
+            "frameId": 243,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8754270076751709,
+                    "completeStep": 0.8754673004150391
+                }
+            }
+        },
+        {
+            "frameId": 244,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8954148292541504,
+                    "completeStep": 0.8954546451568604
+                }
+            }
+        },
+        {
+            "frameId": 245,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8728542327880859,
+                    "completeStep": 0.8728923797607422
+                }
+            }
+        },
+        {
+            "frameId": 246,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8891396522521973,
+                    "completeStep": 0.889178991317749
+                }
+            }
+        },
+        {
+            "frameId": 247,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8943784236907959,
+                    "completeStep": 0.894418478012085
+                }
+            }
+        },
+        {
+            "frameId": 248,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8847332000732422,
+                    "completeStep": 0.884772539138794
+                }
+            }
+        },
+        {
+            "frameId": 249,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8857011795043945,
+                    "completeStep": 0.8857402801513672
+                }
+            }
+        },
+        {
+            "frameId": 250,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8829538822174072,
+                    "completeStep": 0.8829922676086426
+                }
+            }
+        },
+        {
+            "frameId": 251,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.886498212814331,
+                    "completeStep": 0.8865385055541992
+                }
+            }
+        },
+        {
+            "frameId": 252,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8862628936767578,
+                    "completeStep": 0.8863036632537842
+                }
+            }
+        },
+        {
+            "frameId": 253,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8749270439147949,
+                    "completeStep": 0.8749656677246094
+                }
+            }
+        },
+        {
+            "frameId": 254,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8845975399017334,
+                    "completeStep": 0.884636402130127
+                }
+            }
+        },
+        {
+            "frameId": 255,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.882965087890625,
+                    "completeStep": 0.8830044269561768
+                }
+            }
+        },
+        {
+            "frameId": 256,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8768067359924316,
+                    "completeStep": 0.8768460750579834
+                }
+            }
+        },
+        {
+            "frameId": 257,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8789818286895752,
+                    "completeStep": 0.879021406173706
+                }
+            }
+        },
+        {
+            "frameId": 258,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8937239646911621,
+                    "completeStep": 0.8937625885009766
+                }
+            }
+        },
+        {
+            "frameId": 259,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8803844451904297,
+                    "completeStep": 0.8804240226745605
+                }
+            }
+        },
+        {
+            "frameId": 260,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9038639068603516,
+                    "completeStep": 0.9039058685302734
+                }
+            }
+        },
+        {
+            "frameId": 261,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8947985172271729,
+                    "completeStep": 0.894838809967041
+                }
+            }
+        },
+        {
+            "frameId": 262,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8711404800415039,
+                    "completeStep": 0.8711793422698975
+                }
+            }
+        },
+        {
+            "frameId": 263,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8891067504882812,
+                    "completeStep": 0.8891458511352539
+                }
+            }
+        },
+        {
+            "frameId": 264,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.882249116897583,
+                    "completeStep": 0.8822886943817139
+                }
+            }
+        },
+        {
+            "frameId": 265,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8788740634918213,
+                    "completeStep": 0.8789145946502686
+                }
+            }
+        },
+        {
+            "frameId": 266,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.909522294998169,
+                    "completeStep": 0.9095633029937744
+                }
+            }
+        },
+        {
+            "frameId": 267,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8824543952941895,
+                    "completeStep": 0.8824942111968994
+                }
+            }
+        },
+        {
+            "frameId": 268,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8857920169830322,
+                    "completeStep": 0.885831356048584
+                }
+            }
+        },
+        {
+            "frameId": 269,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8845241069793701,
+                    "completeStep": 0.8845651149749756
+                }
+            }
+        },
+        {
+            "frameId": 270,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8866133689880371,
+                    "completeStep": 0.8866534233093262
+                }
+            }
+        },
+        {
+            "frameId": 271,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.887345552444458,
+                    "completeStep": 0.8873856067657471
+                }
+            }
+        },
+        {
+            "frameId": 272,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.874950647354126,
+                    "completeStep": 0.8749902248382568
+                }
+            }
+        },
+        {
+            "frameId": 273,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9036216735839844,
+                    "completeStep": 0.9036605358123779
+                }
+            }
+        },
+        {
+            "frameId": 274,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8865008354187012,
+                    "completeStep": 0.8865411281585693
+                }
+            }
+        },
+        {
+            "frameId": 275,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8787147998809814,
+                    "completeStep": 0.8787550926208496
+                }
+            }
+        },
+        {
+            "frameId": 276,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8736379146575928,
+                    "completeStep": 0.8736770153045654
+                }
+            }
+        },
+        {
+            "frameId": 277,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8965907096862793,
+                    "completeStep": 0.8966310024261475
+                }
+            }
+        },
+        {
+            "frameId": 278,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8973658084869385,
+                    "completeStep": 0.8974056243896484
+                }
+            }
+        },
+        {
+            "frameId": 279,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9091777801513672,
+                    "completeStep": 0.9092190265655518
+                }
+            }
+        },
+        {
+            "frameId": 280,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8807637691497803,
+                    "completeStep": 0.8808035850524902
+                }
+            }
+        },
+        {
+            "frameId": 281,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9025137424468994,
+                    "completeStep": 0.9025542736053467
+                }
+            }
+        },
+        {
+            "frameId": 282,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8821494579315186,
+                    "completeStep": 0.8821899890899658
+                }
+            }
+        },
+        {
+            "frameId": 283,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8781983852386475,
+                    "completeStep": 0.8782384395599365
+                }
+            }
+        },
+        {
+            "frameId": 284,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8889951705932617,
+                    "completeStep": 0.8890337944030762
+                }
+            }
+        },
+        {
+            "frameId": 285,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9013071060180664,
+                    "completeStep": 0.9013462066650391
+                }
+            }
+        },
+        {
+            "frameId": 286,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8777697086334229,
+                    "completeStep": 0.8778102397918701
+                }
+            }
+        },
+        {
+            "frameId": 287,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8771429061889648,
+                    "completeStep": 0.8771820068359375
+                }
+            }
+        },
+        {
+            "frameId": 288,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8946824073791504,
+                    "completeStep": 0.8947227001190186
+                }
+            }
+        },
+        {
+            "frameId": 289,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8947131633758545,
+                    "completeStep": 0.8947527408599854
+                }
+            }
+        },
+        {
+            "frameId": 290,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8935019969940186,
+                    "completeStep": 0.8935422897338867
+                }
+            }
+        },
+        {
+            "frameId": 291,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8875946998596191,
+                    "completeStep": 0.8876347541809082
+                }
+            }
+        },
+        {
+            "frameId": 292,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8842244148254395,
+                    "completeStep": 0.8842649459838867
+                }
+            }
+        },
+        {
+            "frameId": 293,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8786611557006836,
+                    "completeStep": 0.8787004947662354
+                }
+            }
+        },
+        {
+            "frameId": 294,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8921482563018799,
+                    "completeStep": 0.8921875953674316
+                }
+            }
+        },
+        {
+            "frameId": 295,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8815040588378906,
+                    "completeStep": 0.881544828414917
+                }
+            }
+        },
+        {
+            "frameId": 296,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9017512798309326,
+                    "completeStep": 0.9017913341522217
+                }
+            }
+        },
+        {
+            "frameId": 297,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8809869289398193,
+                    "completeStep": 0.881028413772583
+                }
+            }
+        },
+        {
+            "frameId": 298,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8891990184783936,
+                    "completeStep": 0.8892385959625244
+                }
+            }
+        },
+        {
+            "frameId": 299,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8725221157073975,
+                    "completeStep": 0.8725631237030029
+                }
+            }
+        },
+        {
+            "frameId": 300,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8962216377258301,
+                    "completeStep": 0.8962631225585938
+                }
+            }
+        },
+        {
+            "frameId": 301,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.889171838760376,
+                    "completeStep": 0.8892121315002441
+                }
+            }
+        },
+        {
+            "frameId": 302,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8835172653198242,
+                    "completeStep": 0.883556604385376
+                }
+            }
+        },
+        {
+            "frameId": 303,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.904271125793457,
+                    "completeStep": 0.9043126106262207
+                }
+            }
+        },
+        {
+            "frameId": 304,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8859658241271973,
+                    "completeStep": 0.8860056400299072
+                }
+            }
+        },
+        {
+            "frameId": 305,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.889399528503418,
+                    "completeStep": 0.889439582824707
+                }
+            }
+        },
+        {
+            "frameId": 306,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8866128921508789,
+                    "completeStep": 0.8866519927978516
+                }
+            }
+        },
+        {
+            "frameId": 307,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9006106853485107,
+                    "completeStep": 0.9006507396697998
+                }
+            }
+        },
+        {
+            "frameId": 308,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8981215953826904,
+                    "completeStep": 0.8981611728668213
+                }
+            }
+        },
+        {
+            "frameId": 309,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8738758563995361,
+                    "completeStep": 0.8739166259765625
+                }
+            }
+        },
+        {
+            "frameId": 310,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.890080451965332,
+                    "completeStep": 0.8901195526123047
+                }
+            }
+        },
+        {
+            "frameId": 311,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8884305953979492,
+                    "completeStep": 0.8884711265563965
+                }
+            }
+        },
+        {
+            "frameId": 312,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.883070707321167,
+                    "completeStep": 0.8831074237823486
+                }
+            }
+        },
+        {
+            "frameId": 313,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8861989974975586,
+                    "completeStep": 0.8862392902374268
+                }
+            }
+        },
+        {
+            "frameId": 314,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.879647970199585,
+                    "completeStep": 0.8796887397766113
+                }
+            }
+        },
+        {
+            "frameId": 315,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8812716007232666,
+                    "completeStep": 0.8813114166259766
+                }
+            }
+        },
+        {
+            "frameId": 316,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.890967607498169,
+                    "completeStep": 0.8910069465637207
+                }
+            }
+        },
+        {
+            "frameId": 317,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8785231113433838,
+                    "completeStep": 0.8785622119903564
+                }
+            }
+        },
+        {
+            "frameId": 318,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8730330467224121,
+                    "completeStep": 0.8730723857879639
+                }
+            }
+        },
+        {
+            "frameId": 319,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8793394565582275,
+                    "completeStep": 0.879380464553833
+                }
+            }
+        },
+        {
+            "frameId": 320,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8973250389099121,
+                    "completeStep": 0.8973655700683594
+                }
+            }
+        },
+        {
+            "frameId": 321,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.880913257598877,
+                    "completeStep": 0.8809547424316406
+                }
+            }
+        },
+        {
+            "frameId": 322,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.895167350769043,
+                    "completeStep": 0.8952088356018066
+                }
+            }
+        },
+        {
+            "frameId": 323,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9018950462341309,
+                    "completeStep": 0.901935338973999
+                }
+            }
+        },
+        {
+            "frameId": 324,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8899099826812744,
+                    "completeStep": 0.8899493217468262
+                }
+            }
+        },
+        {
+            "frameId": 325,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8808200359344482,
+                    "completeStep": 0.8808598518371582
+                }
+            }
+        },
+        {
+            "frameId": 326,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8840255737304688,
+                    "completeStep": 0.8840665817260742
+                }
+            }
+        },
+        {
+            "frameId": 327,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8735957145690918,
+                    "completeStep": 0.8736352920532227
+                }
+            }
+        },
+        {
+            "frameId": 328,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8911011219024658,
+                    "completeStep": 0.8911418914794922
+                }
+            }
+        },
+        {
+            "frameId": 329,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8977251052856445,
+                    "completeStep": 0.8977675437927246
+                }
+            }
+        },
+        {
+            "frameId": 330,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.907984733581543,
+                    "completeStep": 0.9080245494842529
+                }
+            }
+        },
+        {
+            "frameId": 331,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.882824182510376,
+                    "completeStep": 0.8828639984130859
+                }
+            }
+        },
+        {
+            "frameId": 332,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8905370235443115,
+                    "completeStep": 0.8905766010284424
+                }
+            }
+        },
+        {
+            "frameId": 333,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8726871013641357,
+                    "completeStep": 0.8727273941040039
+                }
+            }
+        },
+        {
+            "frameId": 334,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8888745307922363,
+                    "completeStep": 0.8889150619506836
+                }
+            }
+        },
+        {
+            "frameId": 335,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8791496753692627,
+                    "completeStep": 0.87919020652771
+                }
+            }
+        },
+        {
+            "frameId": 336,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.882500410079956,
+                    "completeStep": 0.8825392723083496
+                }
+            }
+        },
+        {
+            "frameId": 337,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8896219730377197,
+                    "completeStep": 0.8896632194519043
+                }
+            }
+        },
+        {
+            "frameId": 338,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.875861406326294,
+                    "completeStep": 0.8759036064147949
+                }
+            }
+        },
+        {
+            "frameId": 339,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8737626075744629,
+                    "completeStep": 0.8738017082214355
+                }
+            }
+        },
+        {
+            "frameId": 340,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8928399085998535,
+                    "completeStep": 0.8928804397583008
+                }
+            }
+        },
+        {
+            "frameId": 341,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8993539810180664,
+                    "completeStep": 0.8993940353393555
+                }
+            }
+        },
+        {
+            "frameId": 342,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9041695594787598,
+                    "completeStep": 0.9042093753814697
+                }
+            }
+        },
+        {
+            "frameId": 343,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8871498107910156,
+                    "completeStep": 0.8871903419494629
+                }
+            }
+        },
+        {
+            "frameId": 344,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8976192474365234,
+                    "completeStep": 0.8976583480834961
+                }
+            }
+        },
+        {
+            "frameId": 345,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.886847972869873,
+                    "completeStep": 0.886887788772583
+                }
+            }
+        },
+        {
+            "frameId": 346,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9038026332855225,
+                    "completeStep": 0.9038424491882324
+                }
+            }
+        },
+        {
+            "frameId": 347,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8931009769439697,
+                    "completeStep": 0.8931407928466797
+                }
+            }
+        },
+        {
+            "frameId": 348,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8883507251739502,
+                    "completeStep": 0.8883907794952393
+                }
+            }
+        },
+        {
+            "frameId": 349,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8812839984893799,
+                    "completeStep": 0.8813245296478271
+                }
+            }
+        },
+        {
+            "frameId": 350,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8837635517120361,
+                    "completeStep": 0.8838057518005371
+                }
+            }
+        },
+        {
+            "frameId": 351,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8971056938171387,
+                    "completeStep": 0.8971476554870605
+                }
+            }
+        },
+        {
+            "frameId": 352,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8940091133117676,
+                    "completeStep": 0.894050121307373
+                }
+            }
+        },
+        {
+            "frameId": 353,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.888765811920166,
+                    "completeStep": 0.8888065814971924
+                }
+            }
+        },
+        {
+            "frameId": 354,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9020135402679443,
+                    "completeStep": 0.9020540714263916
+                }
+            }
+        },
+        {
+            "frameId": 355,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8879656791687012,
+                    "completeStep": 0.8880066871643066
+                }
+            }
+        },
+        {
+            "frameId": 356,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8789589405059814,
+                    "completeStep": 0.8789997100830078
+                }
+            }
+        },
+        {
+            "frameId": 357,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8847634792327881,
+                    "completeStep": 0.88480544090271
+                }
+            }
+        },
+        {
+            "frameId": 358,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9008429050445557,
+                    "completeStep": 0.9008817672729492
+                }
+            }
+        },
+        {
+            "frameId": 359,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8897714614868164,
+                    "completeStep": 0.8898112773895264
+                }
+            }
+        },
+        {
+            "frameId": 360,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8772802352905273,
+                    "completeStep": 0.8773198127746582
+                }
+            }
+        },
+        {
+            "frameId": 361,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8862180709838867,
+                    "completeStep": 0.886258602142334
+                }
+            }
+        },
+        {
+            "frameId": 362,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8869462013244629,
+                    "completeStep": 0.886986255645752
+                }
+            }
+        },
+        {
+            "frameId": 363,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8969402313232422,
+                    "completeStep": 0.8969790935516357
+                }
+            }
+        },
+        {
+            "frameId": 364,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.891932487487793,
+                    "completeStep": 0.8919730186462402
+                }
+            }
+        },
+        {
+            "frameId": 365,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9072573184967041,
+                    "completeStep": 0.9072973728179932
+                }
+            }
+        },
+        {
+            "frameId": 366,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8698015213012695,
+                    "completeStep": 0.8698413372039795
+                }
+            }
+        },
+        {
+            "frameId": 367,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.905228853225708,
+                    "completeStep": 0.9052689075469971
+                }
+            }
+        },
+        {
+            "frameId": 368,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8775138854980469,
+                    "completeStep": 0.8775529861450195
+                }
+            }
+        },
+        {
+            "frameId": 369,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.882889986038208,
+                    "completeStep": 0.8829319477081299
+                }
+            }
+        },
+        {
+            "frameId": 370,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8947122097015381,
+                    "completeStep": 0.894752025604248
+                }
+            }
+        },
+        {
+            "frameId": 371,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9066653251647949,
+                    "completeStep": 0.9067051410675049
+                }
+            }
+        },
+        {
+            "frameId": 372,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8877260684967041,
+                    "completeStep": 0.8877642154693604
+                }
+            }
+        },
+        {
+            "frameId": 373,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8858656883239746,
+                    "completeStep": 0.8859050273895264
+                }
+            }
+        },
+        {
+            "frameId": 374,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8953394889831543,
+                    "completeStep": 0.8953795433044434
+                }
+            }
+        },
+        {
+            "frameId": 375,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8841049671173096,
+                    "completeStep": 0.8841464519500732
+                }
+            }
+        },
+        {
+            "frameId": 376,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8806617259979248,
+                    "completeStep": 0.8807034492492676
+                }
+            }
+        },
+        {
+            "frameId": 377,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9035069942474365,
+                    "completeStep": 0.9035484790802002
+                }
+            }
+        },
+        {
+            "frameId": 378,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8750197887420654,
+                    "completeStep": 0.8750600814819336
+                }
+            }
+        },
+        {
+            "frameId": 379,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8871328830718994,
+                    "completeStep": 0.8871734142303467
+                }
+            }
+        },
+        {
+            "frameId": 380,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.887157678604126,
+                    "completeStep": 0.8871972560882568
+                }
+            }
+        },
+        {
+            "frameId": 381,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8817720413208008,
+                    "completeStep": 0.881812572479248
+                }
+            }
+        },
+        {
+            "frameId": 382,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8856499195098877,
+                    "completeStep": 0.8856899738311768
+                }
+            }
+        },
+        {
+            "frameId": 383,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8965387344360352,
+                    "completeStep": 0.8965785503387451
+                }
+            }
+        },
+        {
+            "frameId": 384,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9019501209259033,
+                    "completeStep": 0.9019906520843506
+                }
+            }
+        },
+        {
+            "frameId": 385,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8790674209594727,
+                    "completeStep": 0.8791072368621826
+                }
+            }
+        },
+        {
+            "frameId": 386,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8887672424316406,
+                    "completeStep": 0.8888082504272461
+                }
+            }
+        },
+        {
+            "frameId": 387,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8901462554931641,
+                    "completeStep": 0.8901867866516113
+                }
+            }
+        },
+        {
+            "frameId": 388,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8801727294921875,
+                    "completeStep": 0.8802123069763184
+                }
+            }
+        },
+        {
+            "frameId": 389,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8866865634918213,
+                    "completeStep": 0.8867278099060059
+                }
+            }
+        },
+        {
+            "frameId": 390,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8822329044342041,
+                    "completeStep": 0.8822739124298096
+                }
+            }
+        },
+        {
+            "frameId": 391,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.885267972946167,
+                    "completeStep": 0.8853073120117188
+                }
+            }
+        },
+        {
+            "frameId": 392,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8848071098327637,
+                    "completeStep": 0.88484787940979
+                }
+            }
+        },
+        {
+            "frameId": 393,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8900265693664551,
+                    "completeStep": 0.8900656700134277
+                }
+            }
+        },
+        {
+            "frameId": 394,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8853836059570312,
+                    "completeStep": 0.8854243755340576
+                }
+            }
+        },
+        {
+            "frameId": 395,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8949592113494873,
+                    "completeStep": 0.8949980735778809
+                }
+            }
+        },
+        {
+            "frameId": 396,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8816792964935303,
+                    "completeStep": 0.8817188739776611
+                }
+            }
+        },
+        {
+            "frameId": 397,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8957235813140869,
+                    "completeStep": 0.8957626819610596
+                }
+            }
+        },
+        {
+            "frameId": 398,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9011220932006836,
+                    "completeStep": 0.9011609554290771
+                }
+            }
+        },
+        {
+            "frameId": 399,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9057667255401611,
+                    "completeStep": 0.9058067798614502
+                }
+            }
+        },
+        {
+            "frameId": 400,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8852639198303223,
+                    "completeStep": 0.8853039741516113
+                }
+            }
+        },
+        {
+            "frameId": 401,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8863282203674316,
+                    "completeStep": 0.8863670825958252
+                }
+            }
+        },
+        {
+            "frameId": 402,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8937094211578369,
+                    "completeStep": 0.8937489986419678
+                }
+            }
+        },
+        {
+            "frameId": 403,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9008669853210449,
+                    "completeStep": 0.9009063243865967
+                }
+            }
+        },
+        {
+            "frameId": 404,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8874461650848389,
+                    "completeStep": 0.8874874114990234
+                }
+            }
+        },
+        {
+            "frameId": 405,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8812813758850098,
+                    "completeStep": 0.8813216686248779
+                }
+            }
+        },
+        {
+            "frameId": 406,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8773455619812012,
+                    "completeStep": 0.8773858547210693
+                }
+            }
+        },
+        {
+            "frameId": 407,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8994796276092529,
+                    "completeStep": 0.8995201587677002
+                }
+            }
+        },
+        {
+            "frameId": 408,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8803853988647461,
+                    "completeStep": 0.8804259300231934
+                }
+            }
+        },
+        {
+            "frameId": 409,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8799464702606201,
+                    "completeStep": 0.8799870014190674
+                }
+            }
+        },
+        {
+            "frameId": 410,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8989682197570801,
+                    "completeStep": 0.8990085124969482
+                }
+            }
+        },
+        {
+            "frameId": 411,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8857626914978027,
+                    "completeStep": 0.8858046531677246
+                }
+            }
+        },
+        {
+            "frameId": 412,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8885760307312012,
+                    "completeStep": 0.8886165618896484
+                }
+            }
+        },
+        {
+            "frameId": 413,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9002065658569336,
+                    "completeStep": 0.9002466201782227
+                }
+            }
+        },
+        {
+            "frameId": 414,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8838269710540771,
+                    "completeStep": 0.8838667869567871
+                }
+            }
+        },
+        {
+            "frameId": 415,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.87503981590271,
+                    "completeStep": 0.8750813007354736
+                }
+            }
+        },
+        {
+            "frameId": 416,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8838586807250977,
+                    "completeStep": 0.8838992118835449
+                }
+            }
+        },
+        {
+            "frameId": 417,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9094512462615967,
+                    "completeStep": 0.9094910621643066
+                }
+            }
+        },
+        {
+            "frameId": 418,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9031381607055664,
+                    "completeStep": 0.9031782150268555
+                }
+            }
+        },
+        {
+            "frameId": 419,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8935859203338623,
+                    "completeStep": 0.8936262130737305
+                }
+            }
+        },
+        {
+            "frameId": 420,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8887145519256592,
+                    "completeStep": 0.8887555599212646
+                }
+            }
+        },
+        {
+            "frameId": 421,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9088833332061768,
+                    "completeStep": 0.9089243412017822
+                }
+            }
+        },
+        {
+            "frameId": 422,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8853802680969238,
+                    "completeStep": 0.8854203224182129
+                }
+            }
+        },
+        {
+            "frameId": 423,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.891308069229126,
+                    "completeStep": 0.891348123550415
+                }
+            }
+        },
+        {
+            "frameId": 424,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8867862224578857,
+                    "completeStep": 0.8868269920349121
+                }
+            }
+        },
+        {
+            "frameId": 425,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8999764919281006,
+                    "completeStep": 0.9000167846679688
+                }
+            }
+        },
+        {
+            "frameId": 426,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8933334350585938,
+                    "completeStep": 0.8933737277984619
+                }
+            }
+        },
+        {
+            "frameId": 427,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9057345390319824,
+                    "completeStep": 0.9057748317718506
+                }
+            }
+        },
+        {
+            "frameId": 428,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8993453979492188,
+                    "completeStep": 0.8993852138519287
+                }
+            }
+        },
+        {
+            "frameId": 429,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9049892425537109,
+                    "completeStep": 0.9050297737121582
+                }
+            }
+        },
+        {
+            "frameId": 430,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8893098831176758,
+                    "completeStep": 0.8893496990203857
+                }
+            }
+        },
+        {
+            "frameId": 431,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.88558030128479,
+                    "completeStep": 0.8856213092803955
+                }
+            }
+        },
+        {
+            "frameId": 432,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8858852386474609,
+                    "completeStep": 0.8859264850616455
+                }
+            }
+        },
+        {
+            "frameId": 433,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8773815631866455,
+                    "completeStep": 0.8774206638336182
+                }
+            }
+        },
+        {
+            "frameId": 434,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8828914165496826,
+                    "completeStep": 0.882932186126709
+                }
+            }
+        },
+        {
+            "frameId": 435,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.9080843925476074,
+                    "completeStep": 0.9081239700317383
+                }
+            }
+        },
+        {
+            "frameId": 436,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8847792148590088,
+                    "completeStep": 0.884819507598877
+                }
+            }
+        },
+        {
+            "frameId": 437,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8850603103637695,
+                    "completeStep": 0.8850994110107422
+                }
+            }
+        },
+        {
+            "frameId": 438,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8939509391784668,
+                    "completeStep": 0.8939917087554932
+                }
+            }
+        },
+        {
+            "frameId": 439,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8935866355895996,
+                    "completeStep": 0.893627405166626
+                }
+            }
+        },
+        {
+            "frameId": 440,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8949670791625977,
+                    "completeStep": 0.8950071334838867
+                }
+            }
+        },
+        {
+            "frameId": 441,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8996148109436035,
+                    "completeStep": 0.8996562957763672
+                }
+            }
+        },
+        {
+            "frameId": 442,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8811469078063965,
+                    "completeStep": 0.8811891078948975
+                }
+            }
+        },
+        {
+            "frameId": 443,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.882209300994873,
+                    "completeStep": 0.8822493553161621
+                }
+            }
+        },
+        {
+            "frameId": 444,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0,
+                "timings": {
+                    "inferencing-tf": 0.8990509510040283,
+                    "completeStep": 0.8990914821624756
+                }
+            }
+        }
+    ],
+    "shortName": "baseline"
+}

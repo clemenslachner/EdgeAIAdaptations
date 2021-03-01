@@ -1,0 +1,4924 @@
+{
+    "runtime": 32.67257642745972,
+    "fps": 16.497015507690314,
+    "complete_acc": 96.84601113172542,
+    "arguments": [
+        {
+            "name": "face",
+            "value": "models/face_detector"
+        },
+        {
+            "name": "model",
+            "value": "models/mask_detector.model"
+        },
+        {
+            "name": "confidence",
+            "value": 0.5
+        },
+        {
+            "name": "camSource",
+            "value": "/dev/video0"
+        },
+        {
+            "name": "inputVideo",
+            "value": "videos/schoolStrike.mp4"
+        },
+        {
+            "name": "width",
+            "value": null
+        },
+        {
+            "name": "verbose",
+            "value": false
+        },
+        {
+            "name": "gray",
+            "value": null
+        },
+        {
+            "name": "boxes",
+            "value": false
+        },
+        {
+            "name": "display",
+            "value": false
+        },
+        {
+            "name": "checkFrame",
+            "value": 1
+        },
+        {
+            "name": "output",
+            "value": "tmp.json"
+        },
+        {
+            "name": "print",
+            "value": null
+        },
+        {
+            "name": "gpu",
+            "value": ""
+        },
+        {
+            "name": "useTf",
+            "value": true
+        },
+        {
+            "name": "useTflite",
+            "value": false
+        },
+        {
+            "name": "onlyFaces",
+            "value": true
+        },
+        {
+            "name": "anonymization",
+            "value": 0
+        }
+    ],
+    "frames": [
+        {
+            "frameId": 1,
+            "frameMetrics": {
+                "faces": 8,
+                "masks": 0,
+                "no_masks": 8,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 2,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 3,
+            "frameMetrics": {
+                "faces": 7,
+                "masks": 0,
+                "no_masks": 7,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 4,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 5,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 6,
+            "frameMetrics": {
+                "faces": 7,
+                "masks": 0,
+                "no_masks": 7,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 7,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 8,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 9,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 10,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 11,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 12,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 13,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 14,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 15,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 16,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 17,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 18,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 19,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 20,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 21,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 22,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 23,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 24,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 25,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 26,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 27,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 28,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 29,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 30,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 31,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 32,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 33,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 34,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 35,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 36,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 37,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 38,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 39,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 40,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 41,
+            "frameMetrics": {
+                "faces": 0,
+                "masks": 0,
+                "no_masks": 0,
+                "accuracy": 0.0
+            }
+        },
+        {
+            "frameId": 42,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 43,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 44,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 45,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 46,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 47,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 48,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 49,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 50,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 51,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 52,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 53,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 54,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 55,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 56,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 57,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 58,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 59,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 60,
+            "frameMetrics": {
+                "faces": 0,
+                "masks": 0,
+                "no_masks": 0,
+                "accuracy": 0.0
+            }
+        },
+        {
+            "frameId": 61,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 62,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 63,
+            "frameMetrics": {
+                "faces": 0,
+                "masks": 0,
+                "no_masks": 0,
+                "accuracy": 0.0
+            }
+        },
+        {
+            "frameId": 64,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 65,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 66,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 67,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 68,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 69,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 70,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 71,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 72,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 73,
+            "frameMetrics": {
+                "faces": 7,
+                "masks": 0,
+                "no_masks": 7,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 74,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 75,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 76,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 77,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 78,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 79,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 80,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 81,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 82,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 83,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 84,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 85,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 86,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 87,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 88,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 89,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 90,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 91,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 92,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 93,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 94,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 95,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 96,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 97,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 98,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 99,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 100,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 101,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 102,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 103,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 104,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 105,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 106,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 107,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 108,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 109,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 110,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 111,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 112,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 113,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 114,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 115,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 116,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 117,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 118,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 119,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 120,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 121,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 122,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 123,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 124,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 125,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 126,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 127,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 128,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 129,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 130,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 131,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 132,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 133,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 134,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 135,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 136,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 137,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 138,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 139,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 140,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 141,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 142,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 143,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 144,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 145,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 146,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 147,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 148,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 149,
+            "frameMetrics": {
+                "faces": 0,
+                "masks": 0,
+                "no_masks": 0,
+                "accuracy": 0.0
+            }
+        },
+        {
+            "frameId": 150,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 151,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 152,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 153,
+            "frameMetrics": {
+                "faces": 0,
+                "masks": 0,
+                "no_masks": 0,
+                "accuracy": 0.0
+            }
+        },
+        {
+            "frameId": 154,
+            "frameMetrics": {
+                "faces": 0,
+                "masks": 0,
+                "no_masks": 0,
+                "accuracy": 0.0
+            }
+        },
+        {
+            "frameId": 155,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 156,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 157,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 158,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 159,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 160,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 161,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 162,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 163,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 164,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 165,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 166,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 167,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 168,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 169,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 170,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 171,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 172,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 173,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 174,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 175,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 176,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 177,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 178,
+            "frameMetrics": {
+                "faces": 7,
+                "masks": 0,
+                "no_masks": 7,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 179,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 180,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 181,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 182,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 183,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 184,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 185,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 186,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 187,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 188,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 189,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 190,
+            "frameMetrics": {
+                "faces": 0,
+                "masks": 0,
+                "no_masks": 0,
+                "accuracy": 0.0
+            }
+        },
+        {
+            "frameId": 191,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 192,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 193,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 194,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 195,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 196,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 197,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 198,
+            "frameMetrics": {
+                "faces": 0,
+                "masks": 0,
+                "no_masks": 0,
+                "accuracy": 0.0
+            }
+        },
+        {
+            "frameId": 199,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 200,
+            "frameMetrics": {
+                "faces": 0,
+                "masks": 0,
+                "no_masks": 0,
+                "accuracy": 0.0
+            }
+        },
+        {
+            "frameId": 201,
+            "frameMetrics": {
+                "faces": 0,
+                "masks": 0,
+                "no_masks": 0,
+                "accuracy": 0.0
+            }
+        },
+        {
+            "frameId": 202,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 203,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 204,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 205,
+            "frameMetrics": {
+                "faces": 0,
+                "masks": 0,
+                "no_masks": 0,
+                "accuracy": 0.0
+            }
+        },
+        {
+            "frameId": 206,
+            "frameMetrics": {
+                "faces": 0,
+                "masks": 0,
+                "no_masks": 0,
+                "accuracy": 0.0
+            }
+        },
+        {
+            "frameId": 207,
+            "frameMetrics": {
+                "faces": 0,
+                "masks": 0,
+                "no_masks": 0,
+                "accuracy": 0.0
+            }
+        },
+        {
+            "frameId": 208,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 209,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 210,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 211,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 212,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 213,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 214,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 215,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 216,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 217,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 218,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 219,
+            "frameMetrics": {
+                "faces": 7,
+                "masks": 0,
+                "no_masks": 7,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 220,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 221,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 222,
+            "frameMetrics": {
+                "faces": 7,
+                "masks": 0,
+                "no_masks": 7,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 223,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 224,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 225,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 226,
+            "frameMetrics": {
+                "faces": 8,
+                "masks": 0,
+                "no_masks": 8,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 227,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 228,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 229,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 230,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 231,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 232,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 233,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 234,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 235,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 236,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 237,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 238,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 239,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 240,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 241,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 242,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 243,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 244,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 245,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 246,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 247,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 248,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 249,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 250,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 251,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 252,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 253,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 254,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 255,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 256,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 257,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 258,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 259,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 260,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 261,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 262,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 263,
+            "frameMetrics": {
+                "faces": 7,
+                "masks": 0,
+                "no_masks": 7,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 264,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 265,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 266,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 267,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 268,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 269,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 270,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 271,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 272,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 273,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 274,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 275,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 276,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 277,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 278,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 279,
+            "frameMetrics": {
+                "faces": 0,
+                "masks": 0,
+                "no_masks": 0,
+                "accuracy": 0.0
+            }
+        },
+        {
+            "frameId": 280,
+            "frameMetrics": {
+                "faces": 0,
+                "masks": 0,
+                "no_masks": 0,
+                "accuracy": 0.0
+            }
+        },
+        {
+            "frameId": 281,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 282,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 283,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 284,
+            "frameMetrics": {
+                "faces": 0,
+                "masks": 0,
+                "no_masks": 0,
+                "accuracy": 0.0
+            }
+        },
+        {
+            "frameId": 285,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 286,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 287,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 288,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 289,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 290,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 291,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 292,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 293,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 294,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 295,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 296,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 297,
+            "frameMetrics": {
+                "faces": 8,
+                "masks": 0,
+                "no_masks": 8,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 298,
+            "frameMetrics": {
+                "faces": 7,
+                "masks": 0,
+                "no_masks": 7,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 299,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 300,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 301,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 302,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 303,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 304,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 305,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 306,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 307,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 308,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 309,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 310,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 311,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 312,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 313,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 314,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 315,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 316,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 317,
+            "frameMetrics": {
+                "faces": 1,
+                "masks": 0,
+                "no_masks": 1,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 318,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 319,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 320,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 321,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 322,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 323,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 324,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 325,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 326,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 327,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 328,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 329,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 330,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 331,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 332,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 333,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 334,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 335,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 336,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 337,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 338,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 339,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 340,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 341,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 342,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 343,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 344,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 345,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 346,
+            "frameMetrics": {
+                "faces": 7,
+                "masks": 0,
+                "no_masks": 7,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 347,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 348,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 349,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 350,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 351,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 352,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 353,
+            "frameMetrics": {
+                "faces": 7,
+                "masks": 0,
+                "no_masks": 7,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 354,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 355,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 356,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 357,
+            "frameMetrics": {
+                "faces": 7,
+                "masks": 0,
+                "no_masks": 7,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 358,
+            "frameMetrics": {
+                "faces": 7,
+                "masks": 0,
+                "no_masks": 7,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 359,
+            "frameMetrics": {
+                "faces": 8,
+                "masks": 0,
+                "no_masks": 8,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 360,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 361,
+            "frameMetrics": {
+                "faces": 11,
+                "masks": 0,
+                "no_masks": 11,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 362,
+            "frameMetrics": {
+                "faces": 8,
+                "masks": 0,
+                "no_masks": 8,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 363,
+            "frameMetrics": {
+                "faces": 10,
+                "masks": 0,
+                "no_masks": 10,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 364,
+            "frameMetrics": {
+                "faces": 7,
+                "masks": 0,
+                "no_masks": 7,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 365,
+            "frameMetrics": {
+                "faces": 7,
+                "masks": 0,
+                "no_masks": 7,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 366,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 367,
+            "frameMetrics": {
+                "faces": 8,
+                "masks": 0,
+                "no_masks": 8,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 368,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 369,
+            "frameMetrics": {
+                "faces": 7,
+                "masks": 0,
+                "no_masks": 7,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 370,
+            "frameMetrics": {
+                "faces": 7,
+                "masks": 0,
+                "no_masks": 7,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 371,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 372,
+            "frameMetrics": {
+                "faces": 8,
+                "masks": 0,
+                "no_masks": 8,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 373,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 374,
+            "frameMetrics": {
+                "faces": 7,
+                "masks": 0,
+                "no_masks": 7,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 375,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 376,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 377,
+            "frameMetrics": {
+                "faces": 8,
+                "masks": 0,
+                "no_masks": 8,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 378,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 379,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 380,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 381,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 382,
+            "frameMetrics": {
+                "faces": 7,
+                "masks": 0,
+                "no_masks": 7,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 383,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 384,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 385,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 386,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 387,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 388,
+            "frameMetrics": {
+                "faces": 7,
+                "masks": 0,
+                "no_masks": 7,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 389,
+            "frameMetrics": {
+                "faces": 8,
+                "masks": 0,
+                "no_masks": 8,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 390,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 391,
+            "frameMetrics": {
+                "faces": 8,
+                "masks": 0,
+                "no_masks": 8,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 392,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 393,
+            "frameMetrics": {
+                "faces": 7,
+                "masks": 0,
+                "no_masks": 7,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 394,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 395,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 396,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 397,
+            "frameMetrics": {
+                "faces": 8,
+                "masks": 0,
+                "no_masks": 8,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 398,
+            "frameMetrics": {
+                "faces": 10,
+                "masks": 0,
+                "no_masks": 10,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 399,
+            "frameMetrics": {
+                "faces": 10,
+                "masks": 0,
+                "no_masks": 10,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 400,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 401,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 402,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 403,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 404,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 405,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 406,
+            "frameMetrics": {
+                "faces": 7,
+                "masks": 0,
+                "no_masks": 7,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 407,
+            "frameMetrics": {
+                "faces": 7,
+                "masks": 0,
+                "no_masks": 7,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 408,
+            "frameMetrics": {
+                "faces": 7,
+                "masks": 0,
+                "no_masks": 7,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 409,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 410,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 411,
+            "frameMetrics": {
+                "faces": 8,
+                "masks": 0,
+                "no_masks": 8,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 412,
+            "frameMetrics": {
+                "faces": 8,
+                "masks": 0,
+                "no_masks": 8,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 413,
+            "frameMetrics": {
+                "faces": 8,
+                "masks": 0,
+                "no_masks": 8,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 414,
+            "frameMetrics": {
+                "faces": 8,
+                "masks": 0,
+                "no_masks": 8,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 415,
+            "frameMetrics": {
+                "faces": 8,
+                "masks": 0,
+                "no_masks": 8,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 416,
+            "frameMetrics": {
+                "faces": 8,
+                "masks": 0,
+                "no_masks": 8,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 417,
+            "frameMetrics": {
+                "faces": 10,
+                "masks": 0,
+                "no_masks": 10,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 418,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 419,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 420,
+            "frameMetrics": {
+                "faces": 7,
+                "masks": 0,
+                "no_masks": 7,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 421,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 422,
+            "frameMetrics": {
+                "faces": 7,
+                "masks": 0,
+                "no_masks": 7,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 423,
+            "frameMetrics": {
+                "faces": 7,
+                "masks": 0,
+                "no_masks": 7,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 424,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 425,
+            "frameMetrics": {
+                "faces": 10,
+                "masks": 0,
+                "no_masks": 10,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 426,
+            "frameMetrics": {
+                "faces": 10,
+                "masks": 0,
+                "no_masks": 10,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 427,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 428,
+            "frameMetrics": {
+                "faces": 8,
+                "masks": 0,
+                "no_masks": 8,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 429,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 430,
+            "frameMetrics": {
+                "faces": 8,
+                "masks": 0,
+                "no_masks": 8,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 431,
+            "frameMetrics": {
+                "faces": 12,
+                "masks": 0,
+                "no_masks": 12,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 432,
+            "frameMetrics": {
+                "faces": 10,
+                "masks": 0,
+                "no_masks": 10,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 433,
+            "frameMetrics": {
+                "faces": 10,
+                "masks": 0,
+                "no_masks": 10,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 434,
+            "frameMetrics": {
+                "faces": 11,
+                "masks": 0,
+                "no_masks": 11,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 435,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 436,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 437,
+            "frameMetrics": {
+                "faces": 10,
+                "masks": 0,
+                "no_masks": 10,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 438,
+            "frameMetrics": {
+                "faces": 7,
+                "masks": 0,
+                "no_masks": 7,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 439,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 440,
+            "frameMetrics": {
+                "faces": 7,
+                "masks": 0,
+                "no_masks": 7,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 441,
+            "frameMetrics": {
+                "faces": 8,
+                "masks": 0,
+                "no_masks": 8,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 442,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 443,
+            "frameMetrics": {
+                "faces": 7,
+                "masks": 0,
+                "no_masks": 7,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 444,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 445,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 446,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 447,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 448,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 449,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 450,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 451,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 452,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 453,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 454,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 455,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 456,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 457,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 458,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 459,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 460,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 461,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 462,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 463,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 464,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 465,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 466,
+            "frameMetrics": {
+                "faces": 8,
+                "masks": 0,
+                "no_masks": 8,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 467,
+            "frameMetrics": {
+                "faces": 8,
+                "masks": 0,
+                "no_masks": 8,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 468,
+            "frameMetrics": {
+                "faces": 7,
+                "masks": 0,
+                "no_masks": 7,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 469,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 470,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 471,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 472,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 473,
+            "frameMetrics": {
+                "faces": 8,
+                "masks": 0,
+                "no_masks": 8,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 474,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 475,
+            "frameMetrics": {
+                "faces": 10,
+                "masks": 0,
+                "no_masks": 10,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 476,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 477,
+            "frameMetrics": {
+                "faces": 9,
+                "masks": 0,
+                "no_masks": 9,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 478,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 479,
+            "frameMetrics": {
+                "faces": 7,
+                "masks": 0,
+                "no_masks": 7,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 480,
+            "frameMetrics": {
+                "faces": 8,
+                "masks": 0,
+                "no_masks": 8,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 481,
+            "frameMetrics": {
+                "faces": 10,
+                "masks": 0,
+                "no_masks": 10,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 482,
+            "frameMetrics": {
+                "faces": 7,
+                "masks": 0,
+                "no_masks": 7,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 483,
+            "frameMetrics": {
+                "faces": 7,
+                "masks": 0,
+                "no_masks": 7,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 484,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 485,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 486,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 487,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 488,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 489,
+            "frameMetrics": {
+                "faces": 2,
+                "masks": 0,
+                "no_masks": 2,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 490,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 491,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 492,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 493,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 494,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 495,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 496,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 497,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 498,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 499,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 500,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 501,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 502,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 503,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 504,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 505,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 506,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 507,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 508,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 509,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 510,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 511,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 512,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 513,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 514,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 515,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 516,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 517,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 518,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 519,
+            "frameMetrics": {
+                "faces": 4,
+                "masks": 0,
+                "no_masks": 4,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 520,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 521,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 522,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 523,
+            "frameMetrics": {
+                "faces": 7,
+                "masks": 0,
+                "no_masks": 7,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 524,
+            "frameMetrics": {
+                "faces": 7,
+                "masks": 0,
+                "no_masks": 7,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 525,
+            "frameMetrics": {
+                "faces": 7,
+                "masks": 0,
+                "no_masks": 7,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 526,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 527,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 528,
+            "frameMetrics": {
+                "faces": 8,
+                "masks": 0,
+                "no_masks": 8,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 529,
+            "frameMetrics": {
+                "faces": 8,
+                "masks": 0,
+                "no_masks": 8,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 530,
+            "frameMetrics": {
+                "faces": 3,
+                "masks": 0,
+                "no_masks": 3,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 531,
+            "frameMetrics": {
+                "faces": 8,
+                "masks": 0,
+                "no_masks": 8,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 532,
+            "frameMetrics": {
+                "faces": 8,
+                "masks": 0,
+                "no_masks": 8,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 533,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 534,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 535,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 536,
+            "frameMetrics": {
+                "faces": 5,
+                "masks": 0,
+                "no_masks": 5,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 537,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        },
+        {
+            "frameId": 538,
+            "frameMetrics": {
+                "faces": 6,
+                "masks": 0,
+                "no_masks": 6,
+                "accuracy": 100.0
+            }
+        }
+    ],
+    "shortName": "baseline"
+}

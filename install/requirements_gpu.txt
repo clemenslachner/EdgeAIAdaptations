@@ -1,0 +1,5 @@
+tensorflow-gpu==1.14
+imutils==0.5.3
+numpy==1.18.2
+opencv-python==3.4.6.27
+matplotlib==3.3.2
